@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pizza-frontend
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: pizza-frontend
+    spec:
+      containers:
+      - name: pizza-frontend
+        image: jeanconnory/pizza-frontend:latest
+        ports:
+        - containerPort: 80
+        env:
+        - name: ASPNETCORE_URLS
+          value: http://*:80
+  selector:
+    matchLabels:
+      app: pizza-frontend
