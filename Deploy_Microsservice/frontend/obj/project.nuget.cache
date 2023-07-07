@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EO4lf/SHBdmeOu+KtOZJrWnG+qo02b9hK2gRO/Q0DsNe8IbGmghIOWgZ62doL97AvtYHyS0lYm7wyxQTKh2VQA==",
+  "success": true,
+  "projectFilePath": "D:\\Pessoais\\Estudo\\Kubernetes\\Deploy_Microsservice\\frontend\\frontend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jean.araujo\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512"
+  ],
+  "logs": []
+}
